@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		179AE85C713BE04A47396147A9842DA0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC8B8B564B9C0B1799063627C114451 /* Utilities.swift */; };
+		223DECFAAEFE13048642BAE414FA2AF2 /* ThreeRingControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7751A75EE3407E8EFCA38C21D97B38C4 /* ThreeRingControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22EF18D0430BD00BDD035AD6B94A6E34 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F42A2BC4688A66C4EA8BC38C39123B41 /* winning.mp3 */; };
+		28D1531BE7CA3FCDB53B7ED9D045420E /* ThreeRingControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E025AD442E7FDA994BF0A2E87CF57F /* ThreeRingControl-dummy.m */; };
+		39265ABA9CA1BD0914613DE71062CA73 /* coin07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFC733DEBAF95EED83D30122B791A36F /* coin07.mp3 */; };
+		3B2CBD4C9F7CC488301F090BEF7D7326 /* Pods-Phonercise-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DFE2D6A8C366773634B7CF037FAA3A /* Pods-Phonercise-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA8EA8F1419E0EFCC7C277B9924E367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		64B9C237EB2C0442CF613AC0EE6938DE /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3561F7E42FE7DFA3ADC4D3E02783E1F /* RingTip.swift */; };
+		8138434AFF4648E11664E99F6D81481D /* ThreeRingControl.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB5B3485E749014278AF685451C89BF /* ThreeRingControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96FCD995E6D7A52A641F350C62F8F39D /* RingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6EE69F51028299D5310685A89CC1FD /* RingLayer.swift */; };
+		AB2788660C3BCC294303CABE86888EFC /* ThreeRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13CFFEEF75C456FDD5CA90A2CE3075 /* ThreeRingView.swift */; };
+		C13BFA7A067BBEBB82E8792535106390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CAB1139505ADB2FEF4214115B375F8F7 /* Pods-Phonercise-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EFB1F69F0CBA01FD7907FCCB630D55 /* Pods-Phonercise-dummy.m */; };
+		D94FAAA3D0FA3A43633FF647DCB34DF0 /* Pods-PhonerciseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7A743D07BE104F3D3CE4A81BB5BF1B /* Pods-PhonerciseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA5B179D6BC8852D0E58F54E3BB7A8E8 /* Pods-PhonerciseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF86E963CBF0C841FB6A830C352D8D2 /* Pods-PhonerciseTests-dummy.m */; };
+		DD34D77F2A7C2A100E8089DAA5A7276B /* Fanfare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0805F7E1BBDE9629DFA4676A21569FC /* Fanfare.swift */; };
+		EE9DAE57FA4B965D2A350D3B79DD8586 /* CircularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ECFACABCC27B94DBBE9BCAAF85996E /* CircularGradient.swift */; };
+		F9C36A12A4AB64B4D3C98B6DC6FD4DAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F511ECE55A36FB4C8219000B73231497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1240D559E7B15AB840DAF0A18DC57574;
+			remoteInfo = ThreeRingControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E7A743D07BE104F3D3CE4A81BB5BF1B /* Pods-PhonerciseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhonerciseTests-umbrella.h"; sourceTree = "<group>"; };
+		0F13CFFEEF75C456FDD5CA90A2CE3075 /* ThreeRingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreeRingView.swift; path = ThreeRingControl/ThreeRingView.swift; sourceTree = "<group>"; };
+		106D0D9005AD3452B58D1EFD65471EDD /* Pods-Phonercise-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phonercise-acknowledgements.plist"; sourceTree = "<group>"; };
+		1443248E2FB13AFAE69DC4CC9F0D2A73 /* Pods-PhonerciseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhonerciseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1EAD0ACF7C772C4364B086E676EC1DC2 /* Pods-PhonerciseTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhonerciseTests-frameworks.sh"; sourceTree = "<group>"; };
+		20EFB1F69F0CBA01FD7907FCCB630D55 /* Pods-Phonercise-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phonercise-dummy.m"; sourceTree = "<group>"; };
+		262BE06716D461960F5B17BDC8F5F7A2 /* ThreeRingControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThreeRingControl.xcconfig; sourceTree = "<group>"; };
+		27391376428A35922713B0590AF83E24 /* Pods-PhonerciseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhonerciseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E6EE69F51028299D5310685A89CC1FD /* RingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RingLayer.swift; path = ThreeRingControl/RingLayer.swift; sourceTree = "<group>"; };
+		3EC8B8B564B9C0B1799063627C114451 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ThreeRingControl/Utilities.swift; sourceTree = "<group>"; };
+		43BE7405F499F65F6314FC9E5298EABD /* ThreeRingControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThreeRingControl.framework; path = ThreeRingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47363F1347554C3A53B879E8A0F522F7 /* Pods-PhonerciseTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhonerciseTests-resources.sh"; sourceTree = "<group>"; };
+		4DE338C6FEB24414FC181274F61E4E39 /* Pods-Phonercise-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phonercise-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F30A84FE755ACC4805BA2F9B90C6A49 /* Pods-PhonerciseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PhonerciseTests.modulemap"; sourceTree = "<group>"; };
+		58E025AD442E7FDA994BF0A2E87CF57F /* ThreeRingControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThreeRingControl-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		602AE38818E1078A42A05589A22B3849 /* Pods-Phonercise-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phonercise-resources.sh"; sourceTree = "<group>"; };
+		61D676CD67322D375532F9A924D6674D /* Pods-Phonercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phonercise.debug.xcconfig"; sourceTree = "<group>"; };
+		61ECFACABCC27B94DBBE9BCAAF85996E /* CircularGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularGradient.swift; path = ThreeRingControl/CircularGradient.swift; sourceTree = "<group>"; };
+		6EDBF863C528D98E2CB4357C63A23D48 /* Pods-Phonercise-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phonercise-frameworks.sh"; sourceTree = "<group>"; };
+		76A8E162DFC732AA8D71A0FA042D5253 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7751A75EE3407E8EFCA38C21D97B38C4 /* ThreeRingControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThreeRingControl-umbrella.h"; sourceTree = "<group>"; };
+		78DFE2D6A8C366773634B7CF037FAA3A /* Pods-Phonercise-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phonercise-umbrella.h"; sourceTree = "<group>"; };
+		7FB69C8518D5063C3E5DFF5E73AA0CF4 /* ThreeRingControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ThreeRingControl.modulemap; sourceTree = "<group>"; };
+		88F507E114BB8C61C06F6E9A1B6E33F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C49D4FA72758CF309D639BDE357B5A /* Pods-PhonerciseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhonerciseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A0805F7E1BBDE9629DFA4676A21569FC /* Fanfare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fanfare.swift; path = ThreeRingControl/Fanfare.swift; sourceTree = "<group>"; };
+		A5E1742B9CA6D300B50C555DE011F951 /* Pods_Phonercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Phonercise.framework; path = "Pods-Phonercise.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E5A3B4B0C901DEAEF0DBE2AAF3A938 /* Pods-Phonercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phonercise.release.xcconfig"; sourceTree = "<group>"; };
+		BAD9DB51D35A3FF497BCDD286DAA7B04 /* Pods-Phonercise.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Phonercise.modulemap"; sourceTree = "<group>"; };
+		BE146FF5CF86B2F984C76DB4A94F75DA /* Pods_PhonerciseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhonerciseTests.framework; path = "Pods-PhonerciseTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC34C64F3A6B8520000752C8AE624B71 /* ThreeRingControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThreeRingControl-prefix.pch"; sourceTree = "<group>"; };
+		CDF86E963CBF0C841FB6A830C352D8D2 /* Pods-PhonerciseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhonerciseTests-dummy.m"; sourceTree = "<group>"; };
+		CFC733DEBAF95EED83D30122B791A36F /* coin07.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = coin07.mp3; path = ThreeRingControl/coin07.mp3; sourceTree = "<group>"; };
+		E3561F7E42FE7DFA3ADC4D3E02783E1F /* RingTip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RingTip.swift; path = ThreeRingControl/RingTip.swift; sourceTree = "<group>"; };
+		E75C1B843375ED2F58F16F29230E84C3 /* Pods-PhonerciseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhonerciseTests.release.xcconfig"; sourceTree = "<group>"; };
+		F42A2BC4688A66C4EA8BC38C39123B41 /* winning.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = winning.mp3; path = ThreeRingControl/winning.mp3; sourceTree = "<group>"; };
+		F6A20E2567A662321FCFBD7D0B2F2978 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB5B3485E749014278AF685451C89BF /* ThreeRingControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ThreeRingControl.h; path = ThreeRingControl/ThreeRingControl.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E1364BBB9CA90EFAC0F6AAE54B9D5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13BFA7A067BBEBB82E8792535106390 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4746F24CF38304153A9FC44AB173C2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA8EA8F1419E0EFCC7C277B9924E367 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFCC2B4597595CD97C9E74245A698BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C36A12A4AB64B4D3C98B6DC6FD4DAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8222C4AA433CFECE2846D4D7C6A2F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D2063B2355F66025F9FF04BA10C2A4A /* ThreeRingControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17927A8BD15F842CFBC53B094C947A5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A8E162DFC732AA8D71A0FA042D5253 /* Info.plist */,
+				7FB69C8518D5063C3E5DFF5E73AA0CF4 /* ThreeRingControl.modulemap */,
+				262BE06716D461960F5B17BDC8F5F7A2 /* ThreeRingControl.xcconfig */,
+				58E025AD442E7FDA994BF0A2E87CF57F /* ThreeRingControl-dummy.m */,
+				CC34C64F3A6B8520000752C8AE624B71 /* ThreeRingControl-prefix.pch */,
+				7751A75EE3407E8EFCA38C21D97B38C4 /* ThreeRingControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ThreeRingControl";
+			sourceTree = "<group>";
+		};
+		29620DC94D9D7F0E7A25F431AE5969CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFC733DEBAF95EED83D30122B791A36F /* coin07.mp3 */,
+				F42A2BC4688A66C4EA8BC38C39123B41 /* winning.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D2063B2355F66025F9FF04BA10C2A4A /* ThreeRingControl */ = {
+			isa = PBXGroup;
+			children = (
+				61ECFACABCC27B94DBBE9BCAAF85996E /* CircularGradient.swift */,
+				A0805F7E1BBDE9629DFA4676A21569FC /* Fanfare.swift */,
+				3E6EE69F51028299D5310685A89CC1FD /* RingLayer.swift */,
+				E3561F7E42FE7DFA3ADC4D3E02783E1F /* RingTip.swift */,
+				FBB5B3485E749014278AF685451C89BF /* ThreeRingControl.h */,
+				0F13CFFEEF75C456FDD5CA90A2CE3075 /* ThreeRingView.swift */,
+				3EC8B8B564B9C0B1799063627C114451 /* Utilities.swift */,
+				29620DC94D9D7F0E7A25F431AE5969CA /* Resources */,
+				17927A8BD15F842CFBC53B094C947A5D /* Support Files */,
+			);
+			name = ThreeRingControl;
+			path = ThreeRingControl;
+			sourceTree = "<group>";
+		};
+		3BF836468905397B34CF0B406017C0C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5E1742B9CA6D300B50C555DE011F951 /* Pods_Phonercise.framework */,
+				BE146FF5CF86B2F984C76DB4A94F75DA /* Pods_PhonerciseTests.framework */,
+				43BE7405F499F65F6314FC9E5298EABD /* ThreeRingControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BF795363CA8CE5E8CC13B75AA766E6D /* Pods-PhonerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				88F507E114BB8C61C06F6E9A1B6E33F3 /* Info.plist */,
+				4F30A84FE755ACC4805BA2F9B90C6A49 /* Pods-PhonerciseTests.modulemap */,
+				1443248E2FB13AFAE69DC4CC9F0D2A73 /* Pods-PhonerciseTests-acknowledgements.markdown */,
+				94C49D4FA72758CF309D639BDE357B5A /* Pods-PhonerciseTests-acknowledgements.plist */,
+				CDF86E963CBF0C841FB6A830C352D8D2 /* Pods-PhonerciseTests-dummy.m */,
+				1EAD0ACF7C772C4364B086E676EC1DC2 /* Pods-PhonerciseTests-frameworks.sh */,
+				47363F1347554C3A53B879E8A0F522F7 /* Pods-PhonerciseTests-resources.sh */,
+				0E7A743D07BE104F3D3CE4A81BB5BF1B /* Pods-PhonerciseTests-umbrella.h */,
+				27391376428A35922713B0590AF83E24 /* Pods-PhonerciseTests.debug.xcconfig */,
+				E75C1B843375ED2F58F16F29230E84C3 /* Pods-PhonerciseTests.release.xcconfig */,
+			);
+			name = "Pods-PhonerciseTests";
+			path = "Target Support Files/Pods-PhonerciseTests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0A8222C4AA433CFECE2846D4D7C6A2F7 /* Pods */,
+				3BF836468905397B34CF0B406017C0C7 /* Products */,
+				91F2420FD435BCB52EC2CA29B7F2A495 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91F2420FD435BCB52EC2CA29B7F2A495 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92019FDF7B197DA84C702F8D8F2F58A7 /* Pods-Phonercise */,
+				5BF795363CA8CE5E8CC13B75AA766E6D /* Pods-PhonerciseTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		92019FDF7B197DA84C702F8D8F2F58A7 /* Pods-Phonercise */ = {
+			isa = PBXGroup;
+			children = (
+				F6A20E2567A662321FCFBD7D0B2F2978 /* Info.plist */,
+				BAD9DB51D35A3FF497BCDD286DAA7B04 /* Pods-Phonercise.modulemap */,
+				4DE338C6FEB24414FC181274F61E4E39 /* Pods-Phonercise-acknowledgements.markdown */,
+				106D0D9005AD3452B58D1EFD65471EDD /* Pods-Phonercise-acknowledgements.plist */,
+				20EFB1F69F0CBA01FD7907FCCB630D55 /* Pods-Phonercise-dummy.m */,
+				6EDBF863C528D98E2CB4357C63A23D48 /* Pods-Phonercise-frameworks.sh */,
+				602AE38818E1078A42A05589A22B3849 /* Pods-Phonercise-resources.sh */,
+				78DFE2D6A8C366773634B7CF037FAA3A /* Pods-Phonercise-umbrella.h */,
+				61D676CD67322D375532F9A924D6674D /* Pods-Phonercise.debug.xcconfig */,
+				B2E5A3B4B0C901DEAEF0DBE2AAF3A938 /* Pods-Phonercise.release.xcconfig */,
+			);
+			name = "Pods-Phonercise";
+			path = "Target Support Files/Pods-Phonercise";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		878AAEF19B96D2EA50C8247364D3475D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94FAAA3D0FA3A43633FF647DCB34DF0 /* Pods-PhonerciseTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B716799D49BD20D3FCAB7AA75D983E4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2CBD4C9F7CC488301F090BEF7D7326 /* Pods-Phonercise-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C691A9BC98FAE1EE9E493803CEC2BE0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223DECFAAEFE13048642BAE414FA2AF2 /* ThreeRingControl-umbrella.h in Headers */,
+				8138434AFF4648E11664E99F6D81481D /* ThreeRingControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1240D559E7B15AB840DAF0A18DC57574 /* ThreeRingControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274BA0822DEAC619B60D2E42D173A522 /* Build configuration list for PBXNativeTarget "ThreeRingControl" */;
+			buildPhases = (
+				8802824116E56EC6FBBBE313943E0577 /* Sources */,
+				1E1364BBB9CA90EFAC0F6AAE54B9D5CC /* Frameworks */,
+				C691A9BC98FAE1EE9E493803CEC2BE0D /* Headers */,
+				60B880120F83ED5201A3102AAE635740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeRingControl;
+			productName = ThreeRingControl;
+			productReference = 43BE7405F499F65F6314FC9E5298EABD /* ThreeRingControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		125B09D2FA6DD1895E5A5127D3B42BF9 /* Pods-PhonerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03316EBE3078686CA4A9674C88158500 /* Build configuration list for PBXNativeTarget "Pods-PhonerciseTests" */;
+			buildPhases = (
+				A7BF589778B8944828AED143B24B60B6 /* Sources */,
+				6FFCC2B4597595CD97C9E74245A698BD /* Frameworks */,
+				878AAEF19B96D2EA50C8247364D3475D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PhonerciseTests";
+			productName = "Pods-PhonerciseTests";
+			productReference = BE146FF5CF86B2F984C76DB4A94F75DA /* Pods_PhonerciseTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28375D7EBB70BF57EAC09FCFA9A787CE /* Pods-Phonercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDDE0B110C6F9F4BD5A048F88E08E3B /* Build configuration list for PBXNativeTarget "Pods-Phonercise" */;
+			buildPhases = (
+				D3A7362A8983F4E33EFE9A3789DF47AE /* Sources */,
+				4746F24CF38304153A9FC44AB173C2E9 /* Frameworks */,
+				B716799D49BD20D3FCAB7AA75D983E4F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0366BB52FB4E012C7214F87A03BD65F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Phonercise";
+			productName = "Pods-Phonercise";
+			productReference = A5E1742B9CA6D300B50C555DE011F951 /* Pods_Phonercise.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3BF836468905397B34CF0B406017C0C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28375D7EBB70BF57EAC09FCFA9A787CE /* Pods-Phonercise */,
+				125B09D2FA6DD1895E5A5127D3B42BF9 /* Pods-PhonerciseTests */,
+				1240D559E7B15AB840DAF0A18DC57574 /* ThreeRingControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B880120F83ED5201A3102AAE635740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39265ABA9CA1BD0914613DE71062CA73 /* coin07.mp3 in Resources */,
+				22EF18D0430BD00BDD035AD6B94A6E34 /* winning.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8802824116E56EC6FBBBE313943E0577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9DAE57FA4B965D2A350D3B79DD8586 /* CircularGradient.swift in Sources */,
+				DD34D77F2A7C2A100E8089DAA5A7276B /* Fanfare.swift in Sources */,
+				96FCD995E6D7A52A641F350C62F8F39D /* RingLayer.swift in Sources */,
+				64B9C237EB2C0442CF613AC0EE6938DE /* RingTip.swift in Sources */,
+				28D1531BE7CA3FCDB53B7ED9D045420E /* ThreeRingControl-dummy.m in Sources */,
+				AB2788660C3BCC294303CABE86888EFC /* ThreeRingView.swift in Sources */,
+				179AE85C713BE04A47396147A9842DA0 /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BF589778B8944828AED143B24B60B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5B179D6BC8852D0E58F54E3BB7A8E8 /* Pods-PhonerciseTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A7362A8983F4E33EFE9A3789DF47AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB1139505ADB2FEF4214115B375F8F7 /* Pods-Phonercise-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0366BB52FB4E012C7214F87A03BD65F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThreeRingControl;
+			target = 1240D559E7B15AB840DAF0A18DC57574 /* ThreeRingControl */;
+			targetProxy = F511ECE55A36FB4C8219000B73231497 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06FA1634D1AC4164324DE0CF52551A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D676CD67322D375532F9A924D6674D /* Pods-Phonercise.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Phonercise/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Phonercise/Pods-Phonercise.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Phonercise;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		560D1B45ABFFC2A9C9011642CD773F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75C1B843375ED2F58F16F29230E84C3 /* Pods-PhonerciseTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhonerciseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhonerciseTests/Pods-PhonerciseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhonerciseTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A0CE0C5389ED33DD4AB78A2CCBA8A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27391376428A35922713B0590AF83E24 /* Pods-PhonerciseTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhonerciseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhonerciseTests/Pods-PhonerciseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhonerciseTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		901F1C74F2DD593F27F6FA8DC327B9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E5A3B4B0C901DEAEF0DBE2AAF3A938 /* Pods-Phonercise.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Phonercise/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Phonercise/Pods-Phonercise.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Phonercise;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A20B0BDFC4838E55DCAD094ED2792393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BECA63B56B92E5D21CBDEB929762575B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262BE06716D461960F5B17BDC8F5F7A2 /* ThreeRingControl.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ThreeRingControl/ThreeRingControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThreeRingControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThreeRingControl/ThreeRingControl.modulemap";
+				PRODUCT_NAME = ThreeRingControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6246EAD5F762AF3E37BFB1F19686CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262BE06716D461960F5B17BDC8F5F7A2 /* ThreeRingControl.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ThreeRingControl/ThreeRingControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThreeRingControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThreeRingControl/ThreeRingControl.modulemap";
+				PRODUCT_NAME = ThreeRingControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03316EBE3078686CA4A9674C88158500 /* Build configuration list for PBXNativeTarget "Pods-PhonerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0CE0C5389ED33DD4AB78A2CCBA8A93 /* Debug */,
+				560D1B45ABFFC2A9C9011642CD773F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274BA0822DEAC619B60D2E42D173A522 /* Build configuration list for PBXNativeTarget "ThreeRingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6246EAD5F762AF3E37BFB1F19686CC5 /* Debug */,
+				BECA63B56B92E5D21CBDEB929762575B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */,
+				A20B0BDFC4838E55DCAD094ED2792393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDDE0B110C6F9F4BD5A048F88E08E3B /* Build configuration list for PBXNativeTarget "Pods-Phonercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FA1634D1AC4164324DE0CF52551A93 /* Debug */,
+				901F1C74F2DD593F27F6FA8DC327B9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
